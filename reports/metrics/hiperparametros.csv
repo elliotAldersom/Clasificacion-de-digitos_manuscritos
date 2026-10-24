@@ -1,0 +1,6 @@
+etapa,modelo,muestras,rejilla,mejor_config,f1_macro_cv,accuracy_cv,tiempo_segundos,epocas
+clasico,knn,10000,"{""modelo__n_neighbors"": [3, 5, 7]}","{""modelo__n_neighbors"": 3}",0.9556,0.956,3.6,
+clasico,svm,10000,"{""modelo__C"": [1, 5, 10], ""modelo__gamma"": [""scale"", 0.01]}","{""modelo__C"": 5, ""modelo__gamma"": ""scale""}",0.9743,0.9746,7.4,
+clasico,regresion_logistica,10000,"{""modelo__C"": [1.0, 10.0]}","{""modelo__C"": 1.0}",0.9128,0.9141,22.5,
+cnn,cnn_base,54000,"{""learning_rate"": 0.001, ""dropout_convolucional"": 0.4, ""dropout_denso"": 0.3, ""filtros"": [32, 64]}","{""epocas"": 12}",,0.9932,438.1,12.0
+cnn,cnn_regularizada,54000,"{""learning_rate"": 0.0005, ""dropout_convolucional"": 0.5, ""dropout_denso"": 0.4, ""filtros"": [32, 64]}","{""epocas"": 8}",,0.992,283.7,8.0

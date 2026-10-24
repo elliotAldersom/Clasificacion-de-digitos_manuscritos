@@ -1,0 +1,44 @@
+{
+  "fecha": "2026-10-24T11:25:56",
+  "resultados": {
+    "knn": {
+      "etapa": "clasico",
+      "modelo": "knn",
+      "muestras": 10000,
+      "rejilla": "{\"modelo__n_neighbors\": [3, 5, 7]}",
+      "mejor_config": "{\"modelo__n_neighbors\": 3}",
+      "f1_macro_cv": 0.9556,
+      "accuracy_cv": 0.956,
+      "tiempo_segundos": 3.6,
+      "epocas": null,
+      "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/knn.joblib",
+      "pliegues": 5
+    },
+    "svm": {
+      "etapa": "clasico",
+      "modelo": "svm",
+      "muestras": 10000,
+      "rejilla": "{\"modelo__C\": [1, 5, 10], \"modelo__gamma\": [\"scale\", 0.01]}",
+      "mejor_config": "{\"modelo__C\": 5, \"modelo__gamma\": \"scale\"}",
+      "f1_macro_cv": 0.9743,
+      "accuracy_cv": 0.9746,
+      "tiempo_segundos": 7.4,
+      "epocas": null,
+      "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/svm.joblib",
+      "pliegues": 5
+    },
+    "regresion_logistica": {
+      "etapa": "clasico",
+      "modelo": "regresion_logistica",
+      "muestras": 10000,
+      "rejilla": "{\"modelo__C\": [1.0, 10.0]}",
+      "mejor_config": "{\"modelo__C\": 1.0}",
+      "f1_macro_cv": 0.9128,
+      "accuracy_cv": 0.9141,
+      "tiempo_segundos": 22.5,
+      "epocas": null,
+      "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/regresion_logistica.joblib",
+      "pliegues": 5
+    }
+  }
+}

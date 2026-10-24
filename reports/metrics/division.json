@@ -1,0 +1,74 @@
+{
+  "fecha": "2026-10-24T11:24:07",
+  "semilla": 42,
+  "fit_ratio": 0.8,
+  "total_fit": 322356,
+  "total_test": 80595,
+  "total": 402951,
+  "proporcion_test": 0.2,
+  "disjuntos": true,
+  "por_digito": {
+    "0": {
+      "fit": 32289,
+      "test": 8073,
+      "total": 40362,
+      "proporcion_test": 0.2
+    },
+    "1": {
+      "fit": 35762,
+      "test": 8941,
+      "total": 44703,
+      "proporcion_test": 0.2
+    },
+    "2": {
+      "fit": 32057,
+      "test": 8015,
+      "total": 40072,
+      "proporcion_test": 0.2
+    },
+    "3": {
+      "fit": 32889,
+      "test": 8223,
+      "total": 41112,
+      "proporcion_test": 0.2
+    },
+    "4": {
+      "fit": 31323,
+      "test": 7831,
+      "total": 39154,
+      "proporcion_test": 0.2
+    },
+    "5": {
+      "fit": 29284,
+      "test": 7322,
+      "total": 36606,
+      "proporcion_test": 0.2
+    },
+    "6": {
+      "fit": 31949,
+      "test": 7988,
+      "total": 39937,
+      "proporcion_test": 0.2
+    },
+    "7": {
+      "fit": 33514,
+      "test": 8379,
+      "total": 41893,
+      "proporcion_test": 0.2
+    },
+    "8": {
+      "fit": 31663,
+      "test": 7916,
+      "total": 39579,
+      "proporcion_test": 0.2
+    },
+    "9": {
+      "fit": 31626,
+      "test": 7907,
+      "total": 39533,
+      "proporcion_test": 0.2
+    }
+  },
+  "fit_dir": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/fit",
+  "test_dir": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/test"
+}

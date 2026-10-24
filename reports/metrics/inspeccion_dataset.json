@@ -1,0 +1,2195 @@
+{
+  "fecha": "2026-10-24T11:22:21",
+  "raiz": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class",
+  "carpetas_totales": 62,
+  "carpetas_digito": [
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "carpetas_otras": [
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "4a",
+    "4b",
+    "4c",
+    "4d",
+    "4e",
+    "4f",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "5a",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "6a",
+    "6b",
+    "6c",
+    "6d",
+    "6e",
+    "6f",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "7a"
+  ],
+  "por_clase": {
+    "30": {
+      "digito": 0,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 75166
+      },
+      "total_archivos": 75173,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_30"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 306384,
+        "entradas": 40363,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/30/hsf_0.mit",
+          "tamano_bytes": 293857,
+          "tipo": "texto",
+          "vista_previa": "5534\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00000.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00010.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00018.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/30/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.79
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/30/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.4
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/30/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 250.49
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/30/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 250.27
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/30/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.4
+        }
+      ]
+    },
+    "31": {
+      "digito": 1,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 82753
+      },
+      "total_archivos": 82760,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_31"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 339282,
+        "entradas": 44704,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/31/hsf_0.mit",
+          "tamano_bytes": 318998,
+          "tipo": "texto",
+          "vista_previa": "6008\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00001.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00011.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00029.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/31/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 252.29
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/31/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 252.06
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/31/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 252.01
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/31/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 251.47
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/31/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 252.95
+        }
+      ]
+    },
+    "32": {
+      "digito": 2,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 74256
+      },
+      "total_archivos": 74263,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_32"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 304172,
+        "entradas": 40072,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/32/hsf_0.mit",
+          "tamano_bytes": 282545,
+          "tipo": "texto",
+          "vista_previa": "5321\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00002.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00012.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00054.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/32/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.95
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/32/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.98
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/32/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.87
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/32/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.29
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/32/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.18
+        }
+      ]
+    },
+    "33": {
+      "digito": 3,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 76405
+      },
+      "total_archivos": 76412,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_33"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 312091,
+        "entradas": 41112,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/33/hsf_0.mit",
+          "tamano_bytes": 296957,
+          "tipo": "texto",
+          "vista_previa": "5592\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00003.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00013.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00024.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/33/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.6
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/33/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.04
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/33/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.42
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/33/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.1
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/33/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.23
+        }
+      ]
+    },
+    "34": {
+      "digito": 4,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 72586
+      },
+      "total_archivos": 72593,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_34"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 297161,
+        "entradas": 39154,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/34/hsf_0.mit",
+          "tamano_bytes": 271506,
+          "tipo": "texto",
+          "vista_previa": "5114\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00004.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00026.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00030.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/34/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.23
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/34/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.5
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/34/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.91
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/34/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.8
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/34/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.42
+        }
+      ]
+    },
+    "35": {
+      "digito": 5,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 67673
+      },
+      "total_archivos": 67680,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_35"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 277908,
+        "entradas": 36606,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/35/hsf_0.mit",
+          "tamano_bytes": 244496,
+          "tipo": "texto",
+          "vista_previa": "4603\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00005.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00017.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00023.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/35/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.09
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/35/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.04
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/35/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.52
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/35/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.02
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/35/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.45
+        }
+      ]
+    },
+    "36": {
+      "digito": 6,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 74016
+      },
+      "total_archivos": 74023,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_36"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 303222,
+        "entradas": 39937,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/36/hsf_0.mit",
+          "tamano_bytes": 278132,
+          "tipo": "texto",
+          "vista_previa": "5236\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00006.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00019.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00036.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/36/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.32
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/36/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.06
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/36/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.26
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/36/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.46
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/36/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.67
+        }
+      ]
+    },
+    "37": {
+      "digito": 7,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 77689
+      },
+      "total_archivos": 77696,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_37"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 317889,
+        "entradas": 41893,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/37/hsf_0.mit",
+          "tamano_bytes": 296708,
+          "tipo": "texto",
+          "vista_previa": "5589\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00007.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00014.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00035.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/37/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.37
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/37/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.23
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/37/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.47
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/37/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 250.6
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/37/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 249.23
+        }
+      ]
+    },
+    "38": {
+      "digito": 8,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 73463
+      },
+      "total_archivos": 73470,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_38"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 300459,
+        "entradas": 39579,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/38/hsf_0.mit",
+          "tamano_bytes": 279439,
+          "tipo": "texto",
+          "vista_previa": "5262\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00008.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00015.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00020.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/38/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.95
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/38/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.15
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/38/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.56
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/38/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.64
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/38/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.61
+        }
+      ]
+    },
+    "39": {
+      "digito": 9,
+      "es_digito": true,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 73253
+      },
+      "total_archivos": 73260,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_39"
+      ],
+      "mits": {
+        "cantidad": 7,
+        "tamano_medio_bytes": 300246,
+        "entradas": 39533,
+        "nombres": [
+          "hsf_0.mit",
+          "hsf_1.mit",
+          "hsf_2.mit",
+          "hsf_3.mit",
+          "hsf_4.mit",
+          "hsf_6.mit",
+          "hsf_7.mit"
+        ],
+        "ejemplo": {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/39/hsf_0.mit",
+          "tamano_bytes": 275732,
+          "tipo": "texto",
+          "vista_previa": "5190\nhsf_0_00000.png f0000_14/d0000_14/d0000_14_00009.png\nhsf_0_00001.png f0000_14/d0000_14/d0000_14_00016.png\nhsf_0_00002.png f0000_14/d0000_14/d0000_14_00021.png\nhsf_0_00003.png f0000_14/d0000_14/d0"
+        }
+      },
+      "muestra_imagenes": [
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/39/hsf_0/hsf_0_00000.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.71
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/39/hsf_0/hsf_0_00001.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 246.55
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/39/hsf_0/hsf_0_00002.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.09
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/39/hsf_0/hsf_0_00003.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 248.43
+        },
+        {
+          "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class/39/hsf_0/hsf_0_00004.png",
+          "legible": true,
+          "forma": [
+            128,
+            128,
+            3
+          ],
+          "canales": 3,
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "media": 247.3
+        }
+      ]
+    },
+    "41": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 14479
+      },
+      "total_archivos": 14486,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_41"
+      ]
+    },
+    "42": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 8617
+      },
+      "total_archivos": 8624,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_42"
+      ]
+    },
+    "43": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 23148
+      },
+      "total_archivos": 23155,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_43"
+      ]
+    },
+    "44": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 10286
+      },
+      "total_archivos": 10293,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_44"
+      ]
+    },
+    "45": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 11205
+      },
+      "total_archivos": 11212,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_45"
+      ]
+    },
+    "46": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 20825
+      },
+      "total_archivos": 20832,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_46"
+      ]
+    },
+    "47": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5539
+      },
+      "total_archivos": 5546,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_47"
+      ]
+    },
+    "48": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 6944
+      },
+      "total_archivos": 6951,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_48"
+      ]
+    },
+    "49": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 27173
+      },
+      "total_archivos": 27180,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_49"
+      ]
+    },
+    "4a": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 8350
+      },
+      "total_archivos": 8357,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_4a"
+      ]
+    },
+    "4b": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5323
+      },
+      "total_archivos": 5330,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_4b"
+      ]
+    },
+    "4c": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 11276
+      },
+      "total_archivos": 11283,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_4c"
+      ]
+    },
+    "4d": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 20514
+      },
+      "total_archivos": 20521,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_4d"
+      ]
+    },
+    "4e": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 18737
+      },
+      "total_archivos": 18744,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_4e"
+      ]
+    },
+    "4f": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 57819
+      },
+      "total_archivos": 57826,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_4f"
+      ]
+    },
+    "50": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 19021
+      },
+      "total_archivos": 19028,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_50"
+      ]
+    },
+    "51": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5584
+      },
+      "total_archivos": 5591,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_51"
+      ]
+    },
+    "52": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 11318
+      },
+      "total_archivos": 11325,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_52"
+      ]
+    },
+    "53": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 48099
+      },
+      "total_archivos": 48106,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_53"
+      ]
+    },
+    "54": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 22323
+      },
+      "total_archivos": 22330,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_54"
+      ]
+    },
+    "55": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 28750
+      },
+      "total_archivos": 28757,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_55"
+      ]
+    },
+    "56": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 10384
+      },
+      "total_archivos": 10391,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_56"
+      ]
+    },
+    "57": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 10527
+      },
+      "total_archivos": 10534,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_57"
+      ]
+    },
+    "58": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5934
+      },
+      "total_archivos": 5941,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_58"
+      ]
+    },
+    "59": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 10629
+      },
+      "total_archivos": 10636,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_59"
+      ]
+    },
+    "5a": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5863
+      },
+      "total_archivos": 5870,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_5a"
+      ]
+    },
+    "61": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 22873
+      },
+      "total_archivos": 22880,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_61"
+      ]
+    },
+    "62": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 11563
+      },
+      "total_archivos": 11570,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_62"
+      ]
+    },
+    "63": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 6078
+      },
+      "total_archivos": 6085,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_63"
+      ]
+    },
+    "64": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 23281
+      },
+      "total_archivos": 23288,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_64"
+      ]
+    },
+    "65": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 57022
+      },
+      "total_archivos": 57029,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_65"
+      ]
+    },
+    "66": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5454
+      },
+      "total_archivos": 5461,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_66"
+      ]
+    },
+    "67": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 8115
+      },
+      "total_archivos": 8122,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_67"
+      ]
+    },
+    "68": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 19930
+      },
+      "total_archivos": 19937,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_68"
+      ]
+    },
+    "69": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5940
+      },
+      "total_archivos": 5947,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_69"
+      ]
+    },
+    "6a": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 4133
+      },
+      "total_archivos": 4140,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_6a"
+      ]
+    },
+    "6b": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5519
+      },
+      "total_archivos": 5526,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_6b"
+      ]
+    },
+    "6c": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 34790
+      },
+      "total_archivos": 34797,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_6c"
+      ]
+    },
+    "6d": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5743
+      },
+      "total_archivos": 5750,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_6d"
+      ]
+    },
+    "6e": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 26172
+      },
+      "total_archivos": 26179,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_6e"
+      ]
+    },
+    "6f": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5976
+      },
+      "total_archivos": 5983,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_6f"
+      ]
+    },
+    "70": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5217
+      },
+      "total_archivos": 5224,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_70"
+      ]
+    },
+    "71": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 6614
+      },
+      "total_archivos": 6621,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_71"
+      ]
+    },
+    "72": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 32359
+      },
+      "total_archivos": 32366,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_72"
+      ]
+    },
+    "73": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5834
+      },
+      "total_archivos": 5841,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_73"
+      ]
+    },
+    "74": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 42020
+      },
+      "total_archivos": 42027,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_74"
+      ]
+    },
+    "75": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 6149
+      },
+      "total_archivos": 6156,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_75"
+      ]
+    },
+    "76": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 6232
+      },
+      "total_archivos": 6239,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_76"
+      ]
+    },
+    "77": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5863
+      },
+      "total_archivos": 5870,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_77"
+      ]
+    },
+    "78": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 6112
+      },
+      "total_archivos": 6119,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_78"
+      ]
+    },
+    "79": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5105
+      },
+      "total_archivos": 5112,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_79"
+      ]
+    },
+    "7a": {
+      "digito": null,
+      "es_digito": false,
+      "extensiones": {
+        ".mit": 7,
+        ".png": 5902
+      },
+      "total_archivos": 5909,
+      "subcarpetas": [
+        "hsf_0",
+        "hsf_1",
+        "hsf_2",
+        "hsf_3",
+        "hsf_4",
+        "hsf_6",
+        "hsf_7",
+        "train_7a"
+      ]
+    }
+  },
+  "balance_png_por_digito": {
+    "0": 75166,
+    "1": 82753,
+    "2": 74256,
+    "3": 76405,
+    "4": 72586,
+    "5": 67673,
+    "6": 74016,
+    "7": 77689,
+    "8": 73463,
+    "9": 73253
+  },
+  "balance": {
+    "total_png_digitos": 747260,
+    "minimo": 67673,
+    "maximo": 82753,
+    "ratio_max_min": 1.2228
+  },
+  "mits": {
+    "total_archivos": 70,
+    "tamano_aproximado_bytes": 21411698,
+    "formato": "Texto plano. Primera línea: cantidad de entradas. Luego una línea por imagen con 'imagen_destino ruta_origen' (p. ej. hsf_0_00000.png f0000_14/d0000_14/d0000_14_00000.png).",
+    "uso_previsto": "Trazabilidad del escritor/formulario de cada imagen; no se usa como imagen de entrada."
+  }
+}

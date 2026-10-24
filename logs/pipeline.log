@@ -1,0 +1,73 @@
+11:21:50 | INFO    | Etapa 1/8: inspeccion
+11:21:50 | INFO    | Inspeccionando /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/puro/by_class (62 subcarpetas)
+11:22:21 | INFO    | Inspección completa: 747260 imágenes de dígitos, 70 .mit. Reporte en /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/reports/metrics/inspeccion_dataset.json
+11:22:21 | INFO    | Etapa 2/8: seleccion
+11:22:21 | INFO    | Dígito 0: 75166 imágenes candidatas
+11:22:30 | INFO    | Dígito 1: 82753 imágenes candidatas
+11:22:37 | INFO    | Dígito 2: 74256 imágenes candidatas
+11:22:46 | INFO    | Dígito 3: 76405 imágenes candidatas
+11:22:53 | INFO    | Dígito 4: 72586 imágenes candidatas
+11:23:02 | INFO    | Dígito 5: 67673 imágenes candidatas
+11:23:11 | INFO    | Dígito 6: 74016 imágenes candidatas
+11:23:19 | INFO    | Dígito 7: 77689 imágenes candidatas
+11:23:26 | INFO    | Dígito 8: 73463 imágenes candidatas
+11:23:33 | INFO    | Dígito 9: 73253 imágenes candidatas
+11:23:43 | INFO    | Manifiesto: 747260 imágenes, 402951 válidas, descartes={'duplicada': 344309} → /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/manifest.csv
+11:23:43 | INFO    | Etapa 3/8: division
+11:23:45 | INFO    | Copiando 322356 imágenes a fit y 80595 a test
+11:24:07 | INFO    | División lista: fit=322356 test=80595 (20.00 % en test)
+11:24:07 | INFO    | Etapa 4/8: clasicos
+11:24:10 | INFO    | Preprocesando 322356 imágenes de /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/fit
+11:25:20 | INFO    | Caché guardada: /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/processed/fit_28x28.npz
+11:25:22 | INFO    | Modelos clásicos: 10000 muestras de fit (1000 por dígito en promedio)
+11:25:22 | INFO    | Buscando hiperparámetros de knn: {'modelo__n_neighbors': [3, 5, 7]}
+11:25:26 | INFO    | knn listo: mejor={'modelo__n_neighbors': 3} f1_macro_cv=0.9556 accuracy_cv=0.9560 (3.6s)
+11:25:26 | INFO    | Buscando hiperparámetros de svm: {'modelo__C': [1, 5, 10], 'modelo__gamma': ['scale', 0.01]}
+11:25:33 | INFO    | svm listo: mejor={'modelo__C': 5, 'modelo__gamma': 'scale'} f1_macro_cv=0.9743 accuracy_cv=0.9746 (7.4s)
+11:25:33 | INFO    | Buscando hiperparámetros de regresion_logistica: {'modelo__C': [1.0, 10.0]}
+11:25:56 | INFO    | regresion_logistica listo: mejor={'modelo__C': 1.0} f1_macro_cv=0.9128 accuracy_cv=0.9141 (22.5s)
+11:25:56 | INFO    | Etapa 5/8: kmeans
+11:25:56 | INFO    | Caché reutilizada: fit_28x28.npz (322356 imágenes)
+11:26:01 | INFO    | K-Means con 10 clústeres sobre 20000 imágenes
+11:26:08 | INFO    | K-Means listo: ARI=0.3609 NMI=0.4730 pureza=0.5685
+11:26:08 | INFO    | Etapa 6/8: cnn
+11:26:08 | INFO    | Caché reutilizada: fit_28x28.npz (322356 imágenes)
+11:26:13 | INFO    | CNN: 54000 para entrenar, 6000 para validar (60000 muestras de fit)
+11:26:13 | INFO    | Entrenando configuración 'base' (12 épocas, lr=0.001, dropout=0.4/0.3)
+11:26:49 | INFO    |   base época 1: val_accuracy=0.9253 val_loss=0.2257
+11:27:25 | INFO    |   base época 2: val_accuracy=0.9852 val_loss=0.0506
+11:28:01 | INFO    |   base época 3: val_accuracy=0.9880 val_loss=0.0411
+11:28:38 | INFO    |   base época 4: val_accuracy=0.9900 val_loss=0.0392
+11:29:13 | INFO    |   base época 5: val_accuracy=0.9848 val_loss=0.0498
+11:29:52 | INFO    |   base época 6: val_accuracy=0.9880 val_loss=0.0451
+11:30:30 | INFO    |   base época 7: val_accuracy=0.9912 val_loss=0.0327
+11:31:02 | INFO    |   base época 8: val_accuracy=0.9927 val_loss=0.0326
+11:31:39 | INFO    |   base época 9: val_accuracy=0.9897 val_loss=0.0391
+11:32:16 | INFO    |   base época 10: val_accuracy=0.9932 val_loss=0.0284
+11:32:54 | INFO    |   base época 11: val_accuracy=0.9930 val_loss=0.0304
+11:33:31 | INFO    |   base época 12: val_accuracy=0.9930 val_loss=0.0292
+11:33:31 | INFO    | Configuración 'base': mejor val_accuracy=0.9932 en 438.1s
+11:33:31 | INFO    | Entrenando configuración 'regularizada' (8 épocas, lr=0.0005, dropout=0.5/0.4)
+11:34:08 | INFO    |   regularizada época 1: val_accuracy=0.9385 val_loss=0.2114
+11:34:42 | INFO    |   regularizada época 2: val_accuracy=0.9867 val_loss=0.0422
+11:35:21 | INFO    |   regularizada época 3: val_accuracy=0.9887 val_loss=0.0354
+11:35:59 | INFO    |   regularizada época 4: val_accuracy=0.9895 val_loss=0.0324
+11:36:36 | INFO    |   regularizada época 5: val_accuracy=0.9902 val_loss=0.0341
+11:37:08 | INFO    |   regularizada época 6: val_accuracy=0.9908 val_loss=0.0289
+11:37:43 | INFO    |   regularizada época 7: val_accuracy=0.9915 val_loss=0.0261
+11:38:15 | INFO    |   regularizada época 8: val_accuracy=0.9920 val_loss=0.0253
+11:38:15 | INFO    | Configuración 'regularizada': mejor val_accuracy=0.9920 en 283.7s
+11:38:15 | INFO    | CNN lista: mejor configuración 'base' → /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/cnn.keras
+11:38:15 | INFO    | Etapa 7/8: evaluacion
+11:38:15 | INFO    | Preprocesando 80595 imágenes de /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/test
+11:38:35 | INFO    | Caché guardada: /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/data/processed/test_28x28.npz
+11:38:35 | INFO    | Evaluando 80595 imágenes de prueba
+11:38:42 | INFO    | CNN: accuracy=0.9937 f1_macro=0.9936 (0.08 ms/imagen)
+11:38:53 | INFO    | SVM: accuracy=0.9773 f1_macro=0.9771 (0.14 ms/imagen)
+11:38:54 | INFO    | KNN: accuracy=0.9593 f1_macro=0.9590 (0.01 ms/imagen)
+11:38:54 | INFO    | Regresión logística: accuracy=0.9200 f1_macro=0.9188 (0.00 ms/imagen)
+11:39:00 | INFO    | Caché reutilizada: test_28x28.npz (80595 imágenes)
+11:39:03 | INFO    | Figuras generadas: 11 en /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/reports/figures
+11:39:03 | INFO    | Etapa 8/8: inferencia
+11:39:04 | INFO    | Formularios: acierto por dígito=0.8583, campo exacto=0.6000 (12/20)
+11:39:04 | INFO    | Proceso completado. Reportes en /home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/reports

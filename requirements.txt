@@ -1,0 +1,13 @@
+# Dependencias fijadas a las versiones realmente instaladas y probadas.
+# Requiere Python 3.10–3.12 (TensorFlow 2.21 no publica wheels para 3.14).
+numpy==2.2.6
+pandas==3.1.0
+opencv-python-headless==5.0.0.93
+pillow==13.0.0
+scikit-learn==1.9.1
+tensorflow-cpu==2.21.0
+matplotlib==3.11.2
+seaborn==0.13.2
+tqdm==4.70.1
+pytest==9.1.1
+joblib==1.6.0

@@ -1,0 +1,5 @@
+modelo,accuracy,precision_macro,recall_macro,f1_macro,accuracy_validacion,entrenamiento_segundos,inferencia_por_imagen_ms,imagenes_evaluadas
+CNN,0.9937,0.9936,0.9936,0.9936,0.9932,438.1,0.079,80595
+SVM,0.9773,0.9771,0.977,0.9771,0.9746,7.4,0.145,80595
+KNN,0.9593,0.9598,0.9587,0.959,0.956,3.6,0.012,80595
+Regresión logística,0.92,0.9189,0.9187,0.9188,0.9141,22.5,0.001,80595

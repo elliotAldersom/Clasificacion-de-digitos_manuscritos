@@ -1,0 +1,982 @@
+{
+  "fecha": "2026-10-24T11:38:35",
+  "test": {
+    "imagenes": 80595,
+    "por_digito": {
+      "0": 8073,
+      "1": 8941,
+      "2": 8015,
+      "3": 8223,
+      "4": 7831,
+      "5": 7322,
+      "6": 7988,
+      "7": 8379,
+      "8": 7916,
+      "9": 7907
+    }
+  },
+  "modelos": {
+    "cnn": {
+      "nombre": "CNN",
+      "imagenes_evaluadas": 80595,
+      "tiempo_inferencia_total_segundos": 6.39,
+      "tiempo_inferencia_por_imagen_ms": 0.079,
+      "tiempo_entrenamiento_segundos": 438.1,
+      "accuracy_validacion": 0.9932,
+      "accuracy": 0.9937,
+      "precision_macro": 0.9936,
+      "recall_macro": 0.9936,
+      "f1_macro": 0.9936,
+      "f1_weighted": 0.9937,
+      "por_clase": {
+        "0": {
+          "precision": 0.9935,
+          "recall": 0.9965,
+          "f1": 0.995,
+          "soporte": 8073
+        },
+        "1": {
+          "precision": 0.9956,
+          "recall": 0.9975,
+          "f1": 0.9966,
+          "soporte": 8941
+        },
+        "2": {
+          "precision": 0.992,
+          "recall": 0.9944,
+          "f1": 0.9932,
+          "soporte": 8015
+        },
+        "3": {
+          "precision": 0.9954,
+          "recall": 0.9933,
+          "f1": 0.9943,
+          "soporte": 8223
+        },
+        "4": {
+          "precision": 0.9911,
+          "recall": 0.9941,
+          "f1": 0.9926,
+          "soporte": 7831
+        },
+        "5": {
+          "precision": 0.9918,
+          "recall": 0.9945,
+          "f1": 0.9932,
+          "soporte": 7322
+        },
+        "6": {
+          "precision": 0.9936,
+          "recall": 0.996,
+          "f1": 0.9948,
+          "soporte": 7988
+        },
+        "7": {
+          "precision": 0.9939,
+          "recall": 0.9928,
+          "f1": 0.9934,
+          "soporte": 8379
+        },
+        "8": {
+          "precision": 0.9962,
+          "recall": 0.991,
+          "f1": 0.9936,
+          "soporte": 7916
+        },
+        "9": {
+          "precision": 0.9931,
+          "recall": 0.986,
+          "f1": 0.9895,
+          "soporte": 7907
+        }
+      },
+      "matriz_confusion": [
+        [
+          8045,
+          0,
+          1,
+          0,
+          2,
+          0,
+          17,
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          8919,
+          9,
+          0,
+          3,
+          0,
+          2,
+          6,
+          1,
+          0
+        ],
+        [
+          5,
+          6,
+          7970,
+          13,
+          4,
+          1,
+          3,
+          5,
+          6,
+          2
+        ],
+        [
+          4,
+          3,
+          16,
+          8168,
+          0,
+          16,
+          0,
+          7,
+          3,
+          6
+        ],
+        [
+          6,
+          2,
+          2,
+          0,
+          7785,
+          0,
+          6,
+          5,
+          2,
+          23
+        ],
+        [
+          2,
+          0,
+          3,
+          11,
+          0,
+          7282,
+          16,
+          2,
+          3,
+          3
+        ],
+        [
+          13,
+          6,
+          1,
+          0,
+          5,
+          6,
+          7956,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          11,
+          19,
+          1,
+          18,
+          1,
+          0,
+          8319,
+          1,
+          7
+        ],
+        [
+          11,
+          7,
+          12,
+          3,
+          6,
+          14,
+          7,
+          2,
+          7845,
+          9
+        ],
+        [
+          9,
+          4,
+          1,
+          10,
+          32,
+          22,
+          0,
+          23,
+          10,
+          7796
+        ]
+      ],
+      "pares_confundidos": [
+        {
+          "real": 9,
+          "predicho": 4,
+          "casos": 32,
+          "porcentaje_de_la_clase": 0.4
+        },
+        {
+          "real": 4,
+          "predicho": 9,
+          "casos": 23,
+          "porcentaje_de_la_clase": 0.29
+        },
+        {
+          "real": 9,
+          "predicho": 7,
+          "casos": 23,
+          "porcentaje_de_la_clase": 0.29
+        },
+        {
+          "real": 9,
+          "predicho": 5,
+          "casos": 22,
+          "porcentaje_de_la_clase": 0.28
+        },
+        {
+          "real": 7,
+          "predicho": 2,
+          "casos": 19,
+          "porcentaje_de_la_clase": 0.23
+        }
+      ]
+    },
+    "svm": {
+      "nombre": "SVM",
+      "imagenes_evaluadas": 80595,
+      "tiempo_inferencia_total_segundos": 11.67,
+      "tiempo_inferencia_por_imagen_ms": 0.145,
+      "tiempo_entrenamiento_segundos": 7.4,
+      "accuracy_validacion": 0.9746,
+      "accuracy": 0.9773,
+      "precision_macro": 0.9771,
+      "recall_macro": 0.977,
+      "f1_macro": 0.9771,
+      "f1_weighted": 0.9773,
+      "por_clase": {
+        "0": {
+          "precision": 0.9829,
+          "recall": 0.991,
+          "f1": 0.9869,
+          "soporte": 8073
+        },
+        "1": {
+          "precision": 0.9871,
+          "recall": 0.9931,
+          "f1": 0.9901,
+          "soporte": 8941
+        },
+        "2": {
+          "precision": 0.9734,
+          "recall": 0.9789,
+          "f1": 0.9762,
+          "soporte": 8015
+        },
+        "3": {
+          "precision": 0.9757,
+          "recall": 0.9679,
+          "f1": 0.9718,
+          "soporte": 8223
+        },
+        "4": {
+          "precision": 0.9721,
+          "recall": 0.9773,
+          "f1": 0.9747,
+          "soporte": 7831
+        },
+        "5": {
+          "precision": 0.9744,
+          "recall": 0.9704,
+          "f1": 0.9724,
+          "soporte": 7322
+        },
+        "6": {
+          "precision": 0.984,
+          "recall": 0.9855,
+          "f1": 0.9847,
+          "soporte": 7988
+        },
+        "7": {
+          "precision": 0.9807,
+          "recall": 0.9749,
+          "f1": 0.9778,
+          "soporte": 8379
+        },
+        "8": {
+          "precision": 0.9728,
+          "recall": 0.9664,
+          "f1": 0.9696,
+          "soporte": 7916
+        },
+        "9": {
+          "precision": 0.9678,
+          "recall": 0.9651,
+          "f1": 0.9664,
+          "soporte": 7907
+        }
+      },
+      "matriz_confusion": [
+        [
+          8000,
+          4,
+          7,
+          7,
+          14,
+          8,
+          19,
+          3,
+          8,
+          3
+        ],
+        [
+          6,
+          8879,
+          17,
+          2,
+          4,
+          12,
+          7,
+          5,
+          8,
+          1
+        ],
+        [
+          22,
+          12,
+          7846,
+          24,
+          21,
+          7,
+          7,
+          27,
+          44,
+          5
+        ],
+        [
+          16,
+          7,
+          65,
+          7959,
+          3,
+          58,
+          1,
+          27,
+          71,
+          16
+        ],
+        [
+          16,
+          5,
+          36,
+          0,
+          7653,
+          0,
+          40,
+          5,
+          7,
+          69
+        ],
+        [
+          16,
+          2,
+          12,
+          76,
+          17,
+          7105,
+          35,
+          4,
+          31,
+          24
+        ],
+        [
+          24,
+          24,
+          22,
+          2,
+          14,
+          23,
+          7872,
+          0,
+          7,
+          0
+        ],
+        [
+          5,
+          15,
+          17,
+          6,
+          47,
+          1,
+          0,
+          8169,
+          11,
+          108
+        ],
+        [
+          13,
+          33,
+          32,
+          41,
+          25,
+          59,
+          18,
+          17,
+          7650,
+          28
+        ],
+        [
+          21,
+          14,
+          6,
+          40,
+          75,
+          19,
+          1,
+          73,
+          27,
+          7631
+        ]
+      ],
+      "pares_confundidos": [
+        {
+          "real": 7,
+          "predicho": 9,
+          "casos": 108,
+          "porcentaje_de_la_clase": 1.29
+        },
+        {
+          "real": 5,
+          "predicho": 3,
+          "casos": 76,
+          "porcentaje_de_la_clase": 1.04
+        },
+        {
+          "real": 9,
+          "predicho": 4,
+          "casos": 75,
+          "porcentaje_de_la_clase": 0.95
+        },
+        {
+          "real": 9,
+          "predicho": 7,
+          "casos": 73,
+          "porcentaje_de_la_clase": 0.92
+        },
+        {
+          "real": 3,
+          "predicho": 8,
+          "casos": 71,
+          "porcentaje_de_la_clase": 0.86
+        }
+      ]
+    },
+    "knn": {
+      "nombre": "KNN",
+      "imagenes_evaluadas": 80595,
+      "tiempo_inferencia_total_segundos": 1.0,
+      "tiempo_inferencia_por_imagen_ms": 0.012,
+      "tiempo_entrenamiento_segundos": 3.6,
+      "accuracy_validacion": 0.956,
+      "accuracy": 0.9593,
+      "precision_macro": 0.9598,
+      "recall_macro": 0.9587,
+      "f1_macro": 0.959,
+      "f1_weighted": 0.9592,
+      "por_clase": {
+        "0": {
+          "precision": 0.9699,
+          "recall": 0.9859,
+          "f1": 0.9778,
+          "soporte": 8073
+        },
+        "1": {
+          "precision": 0.9473,
+          "recall": 0.9933,
+          "f1": 0.9698,
+          "soporte": 8941
+        },
+        "2": {
+          "precision": 0.9714,
+          "recall": 0.9568,
+          "f1": 0.964,
+          "soporte": 8015
+        },
+        "3": {
+          "precision": 0.9416,
+          "recall": 0.9644,
+          "f1": 0.9528,
+          "soporte": 8223
+        },
+        "4": {
+          "precision": 0.9576,
+          "recall": 0.9566,
+          "f1": 0.9571,
+          "soporte": 7831
+        },
+        "5": {
+          "precision": 0.9587,
+          "recall": 0.9541,
+          "f1": 0.9564,
+          "soporte": 7322
+        },
+        "6": {
+          "precision": 0.9773,
+          "recall": 0.9771,
+          "f1": 0.9772,
+          "soporte": 7988
+        },
+        "7": {
+          "precision": 0.9525,
+          "recall": 0.9597,
+          "f1": 0.9561,
+          "soporte": 8379
+        },
+        "8": {
+          "precision": 0.9795,
+          "recall": 0.9001,
+          "f1": 0.9381,
+          "soporte": 7916
+        },
+        "9": {
+          "precision": 0.9419,
+          "recall": 0.9393,
+          "f1": 0.9406,
+          "soporte": 7907
+        }
+      },
+      "matriz_confusion": [
+        [
+          7959,
+          15,
+          12,
+          4,
+          15,
+          17,
+          37,
+          7,
+          5,
+          2
+        ],
+        [
+          6,
+          8881,
+          12,
+          1,
+          5,
+          5,
+          5,
+          17,
+          6,
+          3
+        ],
+        [
+          67,
+          53,
+          7669,
+          30,
+          6,
+          6,
+          16,
+          128,
+          35,
+          5
+        ],
+        [
+          13,
+          20,
+          58,
+          7930,
+          0,
+          63,
+          3,
+          34,
+          71,
+          31
+        ],
+        [
+          11,
+          100,
+          28,
+          0,
+          7491,
+          3,
+          25,
+          11,
+          1,
+          161
+        ],
+        [
+          27,
+          16,
+          15,
+          146,
+          17,
+          6986,
+          61,
+          2,
+          16,
+          36
+        ],
+        [
+          60,
+          57,
+          11,
+          6,
+          8,
+          39,
+          7805,
+          0,
+          2,
+          0
+        ],
+        [
+          6,
+          107,
+          21,
+          5,
+          62,
+          0,
+          0,
+          8041,
+          3,
+          134
+        ],
+        [
+          31,
+          86,
+          62,
+          245,
+          51,
+          152,
+          34,
+          44,
+          7125,
+          86
+        ],
+        [
+          26,
+          40,
+          7,
+          55,
+          168,
+          16,
+          0,
+          158,
+          10,
+          7427
+        ]
+      ],
+      "pares_confundidos": [
+        {
+          "real": 8,
+          "predicho": 3,
+          "casos": 245,
+          "porcentaje_de_la_clase": 3.09
+        },
+        {
+          "real": 9,
+          "predicho": 4,
+          "casos": 168,
+          "porcentaje_de_la_clase": 2.12
+        },
+        {
+          "real": 4,
+          "predicho": 9,
+          "casos": 161,
+          "porcentaje_de_la_clase": 2.06
+        },
+        {
+          "real": 9,
+          "predicho": 7,
+          "casos": 158,
+          "porcentaje_de_la_clase": 2.0
+        },
+        {
+          "real": 8,
+          "predicho": 5,
+          "casos": 152,
+          "porcentaje_de_la_clase": 1.92
+        }
+      ]
+    },
+    "regresion_logistica": {
+      "nombre": "Regresión logística",
+      "imagenes_evaluadas": 80595,
+      "tiempo_inferencia_total_segundos": 0.06,
+      "tiempo_inferencia_por_imagen_ms": 0.001,
+      "tiempo_entrenamiento_segundos": 22.5,
+      "accuracy_validacion": 0.9141,
+      "accuracy": 0.92,
+      "precision_macro": 0.9189,
+      "recall_macro": 0.9187,
+      "f1_macro": 0.9188,
+      "f1_weighted": 0.9198,
+      "por_clase": {
+        "0": {
+          "precision": 0.9446,
+          "recall": 0.9545,
+          "f1": 0.9495,
+          "soporte": 8073
+        },
+        "1": {
+          "precision": 0.9371,
+          "recall": 0.9682,
+          "f1": 0.9524,
+          "soporte": 8941
+        },
+        "2": {
+          "precision": 0.9195,
+          "recall": 0.9183,
+          "f1": 0.9189,
+          "soporte": 8015
+        },
+        "3": {
+          "precision": 0.9294,
+          "recall": 0.9014,
+          "f1": 0.9152,
+          "soporte": 8223
+        },
+        "4": {
+          "precision": 0.9093,
+          "recall": 0.9143,
+          "f1": 0.9118,
+          "soporte": 7831
+        },
+        "5": {
+          "precision": 0.8706,
+          "recall": 0.86,
+          "f1": 0.8653,
+          "soporte": 7322
+        },
+        "6": {
+          "precision": 0.9466,
+          "recall": 0.9482,
+          "f1": 0.9474,
+          "soporte": 7988
+        },
+        "7": {
+          "precision": 0.9497,
+          "recall": 0.9443,
+          "f1": 0.947,
+          "soporte": 8379
+        },
+        "8": {
+          "precision": 0.8811,
+          "recall": 0.86,
+          "f1": 0.8704,
+          "soporte": 7916
+        },
+        "9": {
+          "precision": 0.9014,
+          "recall": 0.9182,
+          "f1": 0.9097,
+          "soporte": 7907
+        }
+      },
+      "matriz_confusion": [
+        [
+          7706,
+          20,
+          41,
+          18,
+          53,
+          108,
+          60,
+          17,
+          47,
+          3
+        ],
+        [
+          7,
+          8657,
+          35,
+          20,
+          28,
+          65,
+          14,
+          16,
+          91,
+          8
+        ],
+        [
+          81,
+          73,
+          7360,
+          59,
+          96,
+          55,
+          56,
+          40,
+          192,
+          3
+        ],
+        [
+          74,
+          29,
+          146,
+          7412,
+          14,
+          217,
+          15,
+          46,
+          167,
+          103
+        ],
+        [
+          27,
+          66,
+          71,
+          2,
+          7160,
+          28,
+          136,
+          5,
+          91,
+          245
+        ],
+        [
+          95,
+          56,
+          105,
+          252,
+          130,
+          6297,
+          100,
+          40,
+          169,
+          78
+        ],
+        [
+          71,
+          73,
+          90,
+          6,
+          68,
+          84,
+          7574,
+          0,
+          22,
+          0
+        ],
+        [
+          5,
+          30,
+          30,
+          35,
+          51,
+          25,
+          1,
+          7912,
+          50,
+          240
+        ],
+        [
+          68,
+          215,
+          112,
+          103,
+          91,
+          326,
+          45,
+          34,
+          6808,
+          114
+        ],
+        [
+          24,
+          19,
+          14,
+          68,
+          183,
+          28,
+          0,
+          221,
+          90,
+          7260
+        ]
+      ],
+      "pares_confundidos": [
+        {
+          "real": 8,
+          "predicho": 5,
+          "casos": 326,
+          "porcentaje_de_la_clase": 4.12
+        },
+        {
+          "real": 5,
+          "predicho": 3,
+          "casos": 252,
+          "porcentaje_de_la_clase": 3.44
+        },
+        {
+          "real": 4,
+          "predicho": 9,
+          "casos": 245,
+          "porcentaje_de_la_clase": 3.13
+        },
+        {
+          "real": 7,
+          "predicho": 9,
+          "casos": 240,
+          "porcentaje_de_la_clase": 2.86
+        },
+        {
+          "real": 9,
+          "predicho": 7,
+          "casos": 221,
+          "porcentaje_de_la_clase": 2.79
+        }
+      ]
+    }
+  },
+  "comparacion": [
+    {
+      "modelo": "CNN",
+      "accuracy": 0.9937,
+      "precision_macro": 0.9936,
+      "recall_macro": 0.9936,
+      "f1_macro": 0.9936,
+      "accuracy_validacion": 0.9932,
+      "entrenamiento_segundos": 438.1,
+      "inferencia_por_imagen_ms": 0.079,
+      "imagenes_evaluadas": 80595
+    },
+    {
+      "modelo": "SVM",
+      "accuracy": 0.9773,
+      "precision_macro": 0.9771,
+      "recall_macro": 0.977,
+      "f1_macro": 0.9771,
+      "accuracy_validacion": 0.9746,
+      "entrenamiento_segundos": 7.4,
+      "inferencia_por_imagen_ms": 0.145,
+      "imagenes_evaluadas": 80595
+    },
+    {
+      "modelo": "KNN",
+      "accuracy": 0.9593,
+      "precision_macro": 0.9598,
+      "recall_macro": 0.9587,
+      "f1_macro": 0.959,
+      "accuracy_validacion": 0.956,
+      "entrenamiento_segundos": 3.6,
+      "inferencia_por_imagen_ms": 0.012,
+      "imagenes_evaluadas": 80595
+    },
+    {
+      "modelo": "Regresión logística",
+      "accuracy": 0.92,
+      "precision_macro": 0.9189,
+      "recall_macro": 0.9187,
+      "f1_macro": 0.9188,
+      "accuracy_validacion": 0.9141,
+      "entrenamiento_segundos": 22.5,
+      "inferencia_por_imagen_ms": 0.001,
+      "imagenes_evaluadas": 80595
+    }
+  ]
+}

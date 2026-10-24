@@ -1,0 +1,229 @@
+{
+  "nombre": "KNN",
+  "imagenes_evaluadas": 80595,
+  "tiempo_inferencia_total_segundos": 1.0,
+  "tiempo_inferencia_por_imagen_ms": 0.012,
+  "tiempo_entrenamiento_segundos": 3.6,
+  "accuracy_validacion": 0.956,
+  "accuracy": 0.9593,
+  "precision_macro": 0.9598,
+  "recall_macro": 0.9587,
+  "f1_macro": 0.959,
+  "f1_weighted": 0.9592,
+  "por_clase": {
+    "0": {
+      "precision": 0.9699,
+      "recall": 0.9859,
+      "f1": 0.9778,
+      "soporte": 8073
+    },
+    "1": {
+      "precision": 0.9473,
+      "recall": 0.9933,
+      "f1": 0.9698,
+      "soporte": 8941
+    },
+    "2": {
+      "precision": 0.9714,
+      "recall": 0.9568,
+      "f1": 0.964,
+      "soporte": 8015
+    },
+    "3": {
+      "precision": 0.9416,
+      "recall": 0.9644,
+      "f1": 0.9528,
+      "soporte": 8223
+    },
+    "4": {
+      "precision": 0.9576,
+      "recall": 0.9566,
+      "f1": 0.9571,
+      "soporte": 7831
+    },
+    "5": {
+      "precision": 0.9587,
+      "recall": 0.9541,
+      "f1": 0.9564,
+      "soporte": 7322
+    },
+    "6": {
+      "precision": 0.9773,
+      "recall": 0.9771,
+      "f1": 0.9772,
+      "soporte": 7988
+    },
+    "7": {
+      "precision": 0.9525,
+      "recall": 0.9597,
+      "f1": 0.9561,
+      "soporte": 8379
+    },
+    "8": {
+      "precision": 0.9795,
+      "recall": 0.9001,
+      "f1": 0.9381,
+      "soporte": 7916
+    },
+    "9": {
+      "precision": 0.9419,
+      "recall": 0.9393,
+      "f1": 0.9406,
+      "soporte": 7907
+    }
+  },
+  "matriz_confusion": [
+    [
+      7959,
+      15,
+      12,
+      4,
+      15,
+      17,
+      37,
+      7,
+      5,
+      2
+    ],
+    [
+      6,
+      8881,
+      12,
+      1,
+      5,
+      5,
+      5,
+      17,
+      6,
+      3
+    ],
+    [
+      67,
+      53,
+      7669,
+      30,
+      6,
+      6,
+      16,
+      128,
+      35,
+      5
+    ],
+    [
+      13,
+      20,
+      58,
+      7930,
+      0,
+      63,
+      3,
+      34,
+      71,
+      31
+    ],
+    [
+      11,
+      100,
+      28,
+      0,
+      7491,
+      3,
+      25,
+      11,
+      1,
+      161
+    ],
+    [
+      27,
+      16,
+      15,
+      146,
+      17,
+      6986,
+      61,
+      2,
+      16,
+      36
+    ],
+    [
+      60,
+      57,
+      11,
+      6,
+      8,
+      39,
+      7805,
+      0,
+      2,
+      0
+    ],
+    [
+      6,
+      107,
+      21,
+      5,
+      62,
+      0,
+      0,
+      8041,
+      3,
+      134
+    ],
+    [
+      31,
+      86,
+      62,
+      245,
+      51,
+      152,
+      34,
+      44,
+      7125,
+      86
+    ],
+    [
+      26,
+      40,
+      7,
+      55,
+      168,
+      16,
+      0,
+      158,
+      10,
+      7427
+    ]
+  ],
+  "pares_confundidos": [
+    {
+      "real": 8,
+      "predicho": 3,
+      "casos": 245,
+      "porcentaje_de_la_clase": 3.09
+    },
+    {
+      "real": 9,
+      "predicho": 4,
+      "casos": 168,
+      "porcentaje_de_la_clase": 2.12
+    },
+    {
+      "real": 4,
+      "predicho": 9,
+      "casos": 161,
+      "porcentaje_de_la_clase": 2.06
+    },
+    {
+      "real": 9,
+      "predicho": 7,
+      "casos": 158,
+      "porcentaje_de_la_clase": 2.0
+    },
+    {
+      "real": 8,
+      "predicho": 5,
+      "casos": 152,
+      "porcentaje_de_la_clase": 1.92
+    }
+  ]
+}

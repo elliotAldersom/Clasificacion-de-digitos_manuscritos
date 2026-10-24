@@ -1,0 +1,34 @@
+{
+  "fecha": "2026-10-24T11:38:15",
+  "mejor": "base",
+  "modelo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/cnn.keras",
+  "arquitectura": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/reports/arquitectura_cnn.txt",
+  "configuraciones": {
+    "base": {
+      "etapa": "cnn",
+      "modelo": "cnn_base",
+      "muestras": 54000,
+      "rejilla": "{\"learning_rate\": 0.001, \"dropout_convolucional\": 0.4, \"dropout_denso\": 0.3, \"filtros\": [32, 64]}",
+      "mejor_config": "{\"epocas\": 12}",
+      "f1_macro_cv": null,
+      "accuracy_cv": 0.9932,
+      "tiempo_segundos": 438.1,
+      "epocas": 12,
+      "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/cnn_base.keras",
+      "val_loss_min": 0.0284
+    },
+    "regularizada": {
+      "etapa": "cnn",
+      "modelo": "cnn_regularizada",
+      "muestras": 54000,
+      "rejilla": "{\"learning_rate\": 0.0005, \"dropout_convolucional\": 0.5, \"dropout_denso\": 0.4, \"filtros\": [32, 64]}",
+      "mejor_config": "{\"epocas\": 8}",
+      "f1_macro_cv": null,
+      "accuracy_cv": 0.992,
+      "tiempo_segundos": 283.7,
+      "epocas": 8,
+      "archivo": "/home/elliot_alderson/Imágenes/Clasificacion-de-digitos_manuscritos/models/cnn_regularizada.keras",
+      "val_loss_min": 0.0253
+    }
+  }
+}

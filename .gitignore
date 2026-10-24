@@ -1,0 +1,26 @@
+# entornos virtuales
+venv/
+.env
+.venv/
+
+# Caché de pytest
+.pytest_cache/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Dataset crudo: descarga externa de NIST SD19, no regenerable (ver README)
+data/puro/
+
+# Derivados del crudo: se regeneran con `main.py` (etapas seleccion y division)
+data/fit/
+data/test/
+data/processed/
+data/manifest.csv
+
+# Modelos entrenados: binarios regenerables con `main.py --etapas clasicos kmeans cnn`
+models/
+
+# Registros de ejecución (ver AGENTS.md: no se versionan)
+# logs/

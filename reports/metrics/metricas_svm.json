@@ -1,0 +1,229 @@
+{
+  "nombre": "SVM",
+  "imagenes_evaluadas": 80595,
+  "tiempo_inferencia_total_segundos": 11.67,
+  "tiempo_inferencia_por_imagen_ms": 0.145,
+  "tiempo_entrenamiento_segundos": 7.4,
+  "accuracy_validacion": 0.9746,
+  "accuracy": 0.9773,
+  "precision_macro": 0.9771,
+  "recall_macro": 0.977,
+  "f1_macro": 0.9771,
+  "f1_weighted": 0.9773,
+  "por_clase": {
+    "0": {
+      "precision": 0.9829,
+      "recall": 0.991,
+      "f1": 0.9869,
+      "soporte": 8073
+    },
+    "1": {
+      "precision": 0.9871,
+      "recall": 0.9931,
+      "f1": 0.9901,
+      "soporte": 8941
+    },
+    "2": {
+      "precision": 0.9734,
+      "recall": 0.9789,
+      "f1": 0.9762,
+      "soporte": 8015
+    },
+    "3": {
+      "precision": 0.9757,
+      "recall": 0.9679,
+      "f1": 0.9718,
+      "soporte": 8223
+    },
+    "4": {
+      "precision": 0.9721,
+      "recall": 0.9773,
+      "f1": 0.9747,
+      "soporte": 7831
+    },
+    "5": {
+      "precision": 0.9744,
+      "recall": 0.9704,
+      "f1": 0.9724,
+      "soporte": 7322
+    },
+    "6": {
+      "precision": 0.984,
+      "recall": 0.9855,
+      "f1": 0.9847,
+      "soporte": 7988
+    },
+    "7": {
+      "precision": 0.9807,
+      "recall": 0.9749,
+      "f1": 0.9778,
+      "soporte": 8379
+    },
+    "8": {
+      "precision": 0.9728,
+      "recall": 0.9664,
+      "f1": 0.9696,
+      "soporte": 7916
+    },
+    "9": {
+      "precision": 0.9678,
+      "recall": 0.9651,
+      "f1": 0.9664,
+      "soporte": 7907
+    }
+  },
+  "matriz_confusion": [
+    [
+      8000,
+      4,
+      7,
+      7,
+      14,
+      8,
+      19,
+      3,
+      8,
+      3
+    ],
+    [
+      6,
+      8879,
+      17,
+      2,
+      4,
+      12,
+      7,
+      5,
+      8,
+      1
+    ],
+    [
+      22,
+      12,
+      7846,
+      24,
+      21,
+      7,
+      7,
+      27,
+      44,
+      5
+    ],
+    [
+      16,
+      7,
+      65,
+      7959,
+      3,
+      58,
+      1,
+      27,
+      71,
+      16
+    ],
+    [
+      16,
+      5,
+      36,
+      0,
+      7653,
+      0,
+      40,
+      5,
+      7,
+      69
+    ],
+    [
+      16,
+      2,
+      12,
+      76,
+      17,
+      7105,
+      35,
+      4,
+      31,
+      24
+    ],
+    [
+      24,
+      24,
+      22,
+      2,
+      14,
+      23,
+      7872,
+      0,
+      7,
+      0
+    ],
+    [
+      5,
+      15,
+      17,
+      6,
+      47,
+      1,
+      0,
+      8169,
+      11,
+      108
+    ],
+    [
+      13,
+      33,
+      32,
+      41,
+      25,
+      59,
+      18,
+      17,
+      7650,
+      28
+    ],
+    [
+      21,
+      14,
+      6,
+      40,
+      75,
+      19,
+      1,
+      73,
+      27,
+      7631
+    ]
+  ],
+  "pares_confundidos": [
+    {
+      "real": 7,
+      "predicho": 9,
+      "casos": 108,
+      "porcentaje_de_la_clase": 1.29
+    },
+    {
+      "real": 5,
+      "predicho": 3,
+      "casos": 76,
+      "porcentaje_de_la_clase": 1.04
+    },
+    {
+      "real": 9,
+      "predicho": 4,
+      "casos": 75,
+      "porcentaje_de_la_clase": 0.95
+    },
+    {
+      "real": 9,
+      "predicho": 7,
+      "casos": 73,
+      "porcentaje_de_la_clase": 0.92
+    },
+    {
+      "real": 3,
+      "predicho": 8,
+      "casos": 71,
+      "porcentaje_de_la_clase": 0.86
+    }
+  ]
+}

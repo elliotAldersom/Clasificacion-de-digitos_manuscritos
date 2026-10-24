@@ -1,0 +1,134 @@
+{
+  "fecha": "2026-10-24T11:39:04",
+  "formularios": 10,
+  "campos_por_formulario": 2,
+  "digitos_por_campo": 6,
+  "acierto_por_digito": 0.8583,
+  "acierto_por_campo": 0.6,
+  "campos_exactos": 12,
+  "total_campos": 20,
+  "digitos_acertados": 103,
+  "total_digitos": 120,
+  "detalle": [
+    {
+      "formulario": 0,
+      "esperado": [
+        "031903",
+        "692531"
+      ],
+      "obtenido": [
+        "031903",
+        "692531"
+      ],
+      "campos_exactos": 2
+    },
+    {
+      "formulario": 1,
+      "esperado": [
+        "477896",
+        "117991"
+      ],
+      "obtenido": [
+        "477896",
+        "11799"
+      ],
+      "campos_exactos": 1
+    },
+    {
+      "formulario": 2,
+      "esperado": [
+        "824124",
+        "559844"
+      ],
+      "obtenido": [
+        "824124",
+        "559844"
+      ],
+      "campos_exactos": 2
+    },
+    {
+      "formulario": 3,
+      "esperado": [
+        "610019",
+        "210251"
+      ],
+      "obtenido": [
+        "610019",
+        "2025"
+      ],
+      "campos_exactos": 1
+    },
+    {
+      "formulario": 4,
+      "esperado": [
+        "680028",
+        "777371"
+      ],
+      "obtenido": [
+        "680028",
+        "777371"
+      ],
+      "campos_exactos": 2
+    },
+    {
+      "formulario": 5,
+      "esperado": [
+        "198900",
+        "093358"
+      ],
+      "obtenido": [
+        "98900",
+        "093350"
+      ],
+      "campos_exactos": 0
+    },
+    {
+      "formulario": 6,
+      "esperado": [
+        "582782",
+        "122514"
+      ],
+      "obtenido": [
+        "582782",
+        "120514"
+      ],
+      "campos_exactos": 1
+    },
+    {
+      "formulario": 7,
+      "esperado": [
+        "550403",
+        "015496"
+      ],
+      "obtenido": [
+        "550403",
+        "015491"
+      ],
+      "campos_exactos": 1
+    },
+    {
+      "formulario": 8,
+      "esperado": [
+        "478855",
+        "116514"
+      ],
+      "obtenido": [
+        "478555",
+        "116514"
+      ],
+      "campos_exactos": 1
+    },
+    {
+      "formulario": 9,
+      "esperado": [
+        "836896",
+        "105507"
+      ],
+      "obtenido": [
+        "836896",
+        "1055407"
+      ],
+      "campos_exactos": 1
+    }
+  ]
+}
